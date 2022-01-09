@@ -1,0 +1,410 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = LiME-SwerVolf
+Directory = Z:/LiME-SwerVolf
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.modelsim_compiled_library_dir
+Path     = Z:/LiME-SwerVolf/LiME-SwerVolf.cache/compile_simlib/modelsim
+
+Section (2) - Excluded Runs
+---------------------------
+The run results were excluded for the following runs in the archived project:-
+
+<synth_1>
+<sys_clk_mmcm_synth_1>
+<riscv_local_ram_synth_1>
+<impl_1>
+<sys_clk_mmcm_impl_1>
+<riscv_local_ram_impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+Z:/Projects/ASIC2/swervolf/build/swervolf_0.7.3/nexys_a7-vivado/config
+Z:/Projects/ASIC2/swervolf/build/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/include
+Z:/Projects/ASIC2/swervolf/build/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/include
+Z:/Projects/ASIC2/swervolf/build/swervolf_0.7.3/src/serv_1.0.2/rtl
+Z:/Projects/ASIC2/swervolf/build/swervolf_0.7.3/src/uart16550_1.5.5-r1/rtl/verilog
+Z:/Projects/ASIC2/swervolf/build/swervolf_0.7.3/src/wb_common_1.0.3
+Z:/Projects/ASIC2/swervolf/build/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/include
+Z:/Projects/ASIC2/swervolf/build/swervolf_0.7.3/src/swervolf-intercon_0.7.3
+Z:/Projects/ASIC2/swervolf/build/swervolf_0.7.3/src/swervolf-wb_intercon_0.7.3
+Z:/Projects/ASIC2/swervolf/build/swervolf_0.7.3/nexys_a7-vivado
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<riscv_local_ram>
+z:/temp/PrjAr/_X_/LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/nexys_a7-vivado/swervolf_0.7.3.srcs/coe/hello_uart.coe
+
+<sys_clk_mmcm>
+None
+
+<constrs_1>
+None
+
+<sim_1>
+None
+
+<sources_1>
+Z:/Projects/ASIC2/swervolf/build/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/include/axi/typedef.svh
+Z:/Projects/ASIC2/swervolf/build/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/include/global.h
+Z:/Projects/ASIC2/swervolf/build/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/include/axi/assign.svh
+Z:/Projects/ASIC2/swervolf/build/swervolf_0.7.3/nexys_a7-vivado/config/pic_map_auto.h
+Z:/Projects/ASIC2/swervolf/build/swervolf_0.7.3/src/swervolf-intercon_0.7.3/axi_intercon.vh
+Z:/Projects/ASIC2/swervolf/build/swervolf_0.7.3/src/swervolf-wb_intercon_0.7.3/wb_intercon.vh
+Z:/Projects/ASIC2/swervolf/build/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/include/common_cells/registers.svh
+Z:/Projects/ASIC2/swervolf/build/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/include/build.h
+
+<utils_1>
+None
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/nexys_a7-vivado/config/common_defines.vh
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/serv_1.0.2/rtl/serv_params.vh
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/cdc_utils_0.1-r1/rtl/verilog/sync2_pgen.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/cdc_utils_0.1-r1/rtl/verilog/cc561.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/include/swerv_types.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/lib/beh_lib.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/mem.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/pic_ctrl.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/dma_ctrl.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/ifu/ifu_aln_ctl.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/ifu/ifu_compress_ctl.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/ifu/ifu_ifc_ctl.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/ifu/ifu_bp_ctl.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/ifu/ifu_ic_mem.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/ifu/ifu_mem_ctl.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/ifu/ifu_iccm_mem.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/ifu/ifu.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/dec/dec_decode_ctl.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/dec/dec_gpr_ctl.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/dec/dec_ib_ctl.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/dec/dec_tlu_ctl.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/dec/dec_trigger.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/dec/dec.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/exu/exu_alu_ctl.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/exu/exu_mul_ctl.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/exu/exu_div_ctl.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/exu/exu.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/lsu/lsu.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/lsu/lsu_bus_buffer.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/lsu/lsu_clkdomain.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/lsu/lsu_addrcheck.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/lsu/lsu_lsc_ctl.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/lsu/lsu_stbuf.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/lsu/lsu_bus_intf.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/lsu/lsu_ecc.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/lsu/lsu_dccm_mem.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/lsu/lsu_dccm_ctl.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/lsu/lsu_trigger.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/dbg/dbg.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/dmi/dmi_wrapper.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/dmi/dmi_jtag_to_core_sync.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/dmi/rvjtag_tap.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/lib/mem_lib.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/lib/ahb_to_axi4.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/lib/axi4_to_ahb.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/swerv.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/swerv_wrapper.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/binary_to_gray.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/cb_filter_pkg.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/cdc_2phase.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/cf_math_pkg.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/clk_div.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/delta_counter.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/ecc_pkg.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/edge_propagator_tx.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/exp_backoff.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/fifo_v3.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/gray_to_binary.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/isochronous_spill_register.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/lfsr.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/lfsr_16bit.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/lfsr_8bit.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/mv_filter.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/onehot_to_bin.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/plru_tree.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/popcount.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/rr_arb_tree.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/rstgen_bypass.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/serial_deglitch.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/shift_reg.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/spill_register.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/stream_demux.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/stream_filter.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/stream_fork.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/stream_intf.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/stream_join.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/stream_mux.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/sub_per_hash.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/sync.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/sync_wedge.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/unread.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/addr_decode.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/cb_filter.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_2phase.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/counter.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/ecc_decode.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/ecc_encode.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/edge_detect.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/lzc.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/max_counter.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/rstgen.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/stream_delay.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/stream_fifo.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/stream_fork_dynamic.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/stream_xbar.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/fall_through_register.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/id_queue.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/stream_to_mem.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/stream_arbiter_flushable.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/stream_omega_net.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/stream_register.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/stream_arbiter.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/deprecated/clock_divider_counter.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/deprecated/find_first_one.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/deprecated/generic_LFSR_8bit.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/deprecated/generic_fifo.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/deprecated/prioarbiter.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/deprecated/pulp_sync.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/deprecated/pulp_sync_wedge.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/deprecated/rrarbiter.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/deprecated/clock_divider.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/deprecated/fifo_v2.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/deprecated/fifo_v1.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/edge_propagator.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/src/edge_propagator_rx.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/serv_1.0.2/rtl/serv_shift.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/serv_1.0.2/rtl/serv_bufreg.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/serv_1.0.2/rtl/serv_alu.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/serv_1.0.2/rtl/serv_csr.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/serv_1.0.2/rtl/serv_ctrl.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/serv_1.0.2/rtl/serv_decode.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/serv_1.0.2/rtl/serv_mem_if.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/serv_1.0.2/rtl/serv_rf_if.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/serv_1.0.2/rtl/serv_rf_ram_if.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/serv_1.0.2/rtl/serv_rf_ram.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/serv_1.0.2/rtl/serv_state.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/serv_1.0.2/rtl/serv_top.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/serv_1.0.2/rtl/serv_rf_top.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/simple_spi_1.6.1/rtl/verilog/fifo4.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/simple_spi_1.6.1/rtl/verilog/simple_spi_top.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/uart16550_1.5.5-r1/rtl/verilog/raminfr.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/uart16550_1.5.5-r1/rtl/verilog/uart_receiver.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/uart16550_1.5.5-r1/rtl/verilog/uart_regs.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/uart16550_1.5.5-r1/rtl/verilog/uart_rfifo.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/uart16550_1.5.5-r1/rtl/verilog/uart_sync_flops.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/uart16550_1.5.5-r1/rtl/verilog/uart_tfifo.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/uart16550_1.5.5-r1/rtl/verilog/uart_top.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/uart16550_1.5.5-r1/rtl/verilog/uart_transmitter.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/uart16550_1.5.5-r1/rtl/verilog/uart_wb.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/verilog-arbiter_0-r3/src/arbiter.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_pkg.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_intf.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_atop_filter.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_burst_splitter.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_cdc.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_cut.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_delayer.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_demux.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_dw_downsizer.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_dw_upsizer.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_id_prepend.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_isolate.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_join.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_lite_demux.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_lite_join.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_lite_mailbox.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_lite_mux.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_lite_regs.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_lite_to_apb.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_lite_to_axi.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_modify_address.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_mux.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_serializer.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_err_slv.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_dw_converter.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_multicut.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_to_axi_lite.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_lite_xbar.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/src/axi_xbar.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/swervolf_litedram_0/litedram_top.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/swervolf_litedram_0/litedram_core.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/wb_intercon_1.2.2-r1/rtl/verilog/wb_cdc.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/wb_intercon_1.2.2-r1/rtl/verilog/wb_arbiter.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/wb_intercon_1.2.2-r1/rtl/verilog/wb_data_resize.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/wb_intercon_1.2.2-r1/rtl/verilog/wb_mux.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/swervolf_0.7.3/rtl/dpram64.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/swervolf_0.7.3/rtl/axi2wb.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/swervolf_0.7.3/rtl/wb_mem_wrapper.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/swervolf_0.7.3/rtl/swervolf_syscon.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/swervolf_0.7.3/rtl/swerv_wrapper.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/swervolf_0.7.3/rtl/swervolf_core.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/swervolf_0.7.3/rtl/clk_gen_nexys.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/swervolf_0.7.3/rtl/bscan_tap.sv
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/swervolf_0.7.3/rtl/swervolf_nexys.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/swervolf-intercon_0.7.3/axi_intercon.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/swervolf-wb_intercon_0.7.3/wb_intercon.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/uart16550_1.5.5-r1/rtl/verilog/uart_defines.v
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/nexys_a7-vivado/swervolf_0.7.3.srcs/coe/hello.coe
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/nexys_a7-vivado/swervolf_0.7.3.srcs/coe/hello_uart.coe
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/include/axi/typedef.svh
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/include/global.h
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__axi_0.25.0/include/axi/assign.svh
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/nexys_a7-vivado/config/pic_map_auto.h
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/swervolf-intercon_0.7.3/axi_intercon.vh
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/swervolf-wb_intercon_0.7.3/wb_intercon.vh
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/pulp-platform.org__common_cells_1.20.0/include/common_cells/registers.svh
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/src/chipsalliance.org_cores_SweRV_EH1_1.8/design/include/build.h
+
+<constrs_1>
+./LiME-SwerVolf.srcs/constrs_1/imports/src/swervolf_0.7.3/data/swervolf_nexys.xdc
+
+<sim_1>
+./LiME-SwerVolf.srcs/sim_1/imports/nexys_a7-vivado/swervolf_nexys_a7_behav.wcfg
+./LiME-SwerVolf.srcs/sim_1/imports/tb/swervolf_core_tb.v
+./LiME-SwerVolf.srcs/sim_1/imports/tb/uart_decoder.v
+./LiME-SwerVolf.srcs/sim_1/imports/rtl/axi_mem_wrapper.v
+
+<utils_1>
+None
+
+<sys_clk_mmcm>
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/sys_clk_mmcm.xci
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/doc/clk_wiz_v6_0_changelog.txt
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/sys_clk_mmcm_board.xdc
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/sys_clk_mmcm.veo
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/mmcm_pll_drp_func_7s_mmcm.vh
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/mmcm_pll_drp_func_7s_pll.vh
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/mmcm_pll_drp_func_us_mmcm.vh
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/mmcm_pll_drp_func_us_pll.vh
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/mmcm_pll_drp_func_us_plus_pll.vh
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/mmcm_pll_drp_func_us_plus_mmcm.vh
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/sys_clk_mmcm_clk_wiz.v
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/sys_clk_mmcm.v
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/sys_clk_mmcm.dcp
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/sys_clk_mmcm_stub.v
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/sys_clk_mmcm_stub.vhdl
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/sys_clk_mmcm_sim_netlist.v
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/sys_clk_mmcm_sim_netlist.vhdl
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/sys_clk_mmcm.xdc
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/sys_clk_mmcm_ooc.xdc
+./LiME-SwerVolf.srcs/sources_1/ip/sys_clk_mmcm/sys_clk_mmcm.xml
+
+<riscv_local_ram>
+./LiME-SwerVolf.srcs/sources_1/ip/riscv_local_ram/riscv_local_ram.xci
+./LiME-SwerVolf.srcs/sources_1/ip/riscv_local_ram/doc/blk_mem_gen_v8_4_changelog.txt
+./LiME-SwerVolf.srcs/sources_1/ip/riscv_local_ram/riscv_local_ram.vho
+./LiME-SwerVolf.srcs/sources_1/ip/riscv_local_ram/riscv_local_ram.veo
+./LiME-SwerVolf.srcs/sources_1/ip/riscv_local_ram/summary.log
+./LiME-SwerVolf.srcs/sources_1/ip/riscv_local_ram/misc/blk_mem_gen_v8_4.vhd
+./LiME-SwerVolf.srcs/sources_1/ip/riscv_local_ram/riscv_local_ram.mif
+./LiME-SwerVolf.srcs/sources_1/ip/riscv_local_ram/simulation/blk_mem_gen_v8_4.v
+./LiME-SwerVolf.srcs/sources_1/ip/riscv_local_ram/sim/riscv_local_ram.v
+./LiME-SwerVolf.srcs/sources_1/ip/riscv_local_ram/riscv_local_ram.dcp
+./LiME-SwerVolf.srcs/sources_1/ip/riscv_local_ram/riscv_local_ram_stub.v
+./LiME-SwerVolf.srcs/sources_1/ip/riscv_local_ram/riscv_local_ram_stub.vhdl
+./LiME-SwerVolf.srcs/sources_1/ip/riscv_local_ram/riscv_local_ram_sim_netlist.v
+./LiME-SwerVolf.srcs/sources_1/ip/riscv_local_ram/riscv_local_ram_sim_netlist.vhdl
+./LiME-SwerVolf.srcs/sources_1/ip/riscv_local_ram/riscv_local_ram_ooc.xdc
+./LiME-SwerVolf.srcs/sources_1/ip/riscv_local_ram/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./LiME-SwerVolf.srcs/sources_1/ip/riscv_local_ram/synth/riscv_local_ram.vhd
+./LiME-SwerVolf.srcs/sources_1/ip/riscv_local_ram/riscv_local_ram.xml
+./LiME-SwerVolf.srcs/sources_1/imports/swervolf_0.7.3/nexys_a7-vivado/swervolf_0.7.3.srcs/coe/hello_uart.coe
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+None
+
+<sys_clk_mmcm>
+None
+
+<riscv_local_ram>
+None
+
+None
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = C:/Users/maxim.meltsin/AppData/Roaming/Xilinx/Vivado/vivado.jou
+Archived Location = ./LiME-SwerVolf/vivado.jou
+
+Source File = C:/Users/maxim.meltsin/AppData/Roaming/Xilinx/Vivado/vivado.log
+Archived Location = ./LiME-SwerVolf/vivado.log
+

@@ -1,0 +1,7 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module swervolf_core_tb.riscv_local_ram_inst.inst.axi_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Preloading swervolf_core_tb.swervolf.bootrom.ram from jumtoram.vh
+WARNING: File jumtoram.vh referenced on Z:/Projects/ASIC2/swervolf/build/swervolf_0.7.3/src/swervolf_0.7.3/rtl/dpram64.v at line 61 cannot be opened for reading. Please ensure that this file is available in the current working directory.
