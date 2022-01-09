@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Dec 18 17:40:37 2021
+# Process ID: 13340
+# Current directory: C:/Users/maxim.meltsin/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9108
+# Log file: C:/Users/maxim.meltsin/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/maxim.meltsin/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project Z:/LiME_RISCV_v3/LiME_RISCV_v3.xpr
+INFO: [Project 1-313] Project file moved from 'Z:/Projects/ASIC2/Vivado/LiME_RISCV_v3' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'Z:/../Vivado3/ip_repo/TDC_v2_1.0'; using path 'Z:/Projects/ASIC2/Vivado3/ip_repo/TDC_v2_1.0' instead.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'Z:/../Vivado3/ip_repo/myip_temp_v3_1.0'; using path 'Z:/Projects/ASIC2/Vivado3/ip_repo/myip_temp_v3_1.0' instead.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'Z:/../Vivado3/ip_repo/myip_temp_v2_1.0'; using path 'Z:/Projects/ASIC2/Vivado3/ip_repo/myip_temp_v2_1.0' instead.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'Z:/../Vivado3/ip_repo/myip_temp_1.0'; using path 'Z:/Projects/ASIC2/Vivado3/ip_repo/myip_temp_1.0' instead.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'Z:/../Vivado3/ip_repo/TCD_v1_1.0'; using path 'Z:/Projects/ASIC2/Vivado3/ip_repo/TCD_v1_1.0' instead.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'Z:/../LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip'; using path 'Z:/Projects/ASIC2/LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'z:/Projects/ASIC2/Vivado3/ip_repo/TDC_v2_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'z:/Projects/ASIC2/Vivado3/ip_repo/myip_temp_v3_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'z:/Projects/ASIC2/Vivado3/ip_repo/myip_temp_v2_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'z:/Projects/ASIC2/Vivado3/ip_repo/myip_temp_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'z:/Projects/ASIC2/Vivado3/ip_repo/TCD_v1_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'z:/Projects/ASIC2/LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+CRITICAL WARNING: [Common 17-1649] The Vivado message database 'Z:/LiME_RISCV_v3/LiME_RISCV_v3.runs/synth_1/vivado.pb' contains 31672 messages. Restoring all messages from this message database will impact Vivado performance, so only WARNING, CRITICAL WARNING, and ERROR messages will be restored. To restore all messages from this file use the tcl command 'set_param messaging.loadPbLimit 31673' and re-open the project.
+open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 927.918 ; gain = 309.152
+update_compile_order -fileset sources_1
+archive_project Z:/LiME_RISCV_v3.xpr.zip -temp_dir Z:/temp -force -exclude_run_results
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'Z:/temp' for archiving project
+INFO: [Project 1-313] Project file moved from 'Z:/Projects/ASIC2/Vivado/LiME_RISCV_v3' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'Z:/../Vivado3/ip_repo/TDC_v2_1.0'; using path 'Z:/Projects/ASIC2/Vivado3/ip_repo/TDC_v2_1.0' instead.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'Z:/../Vivado3/ip_repo/myip_temp_v3_1.0'; using path 'Z:/Projects/ASIC2/Vivado3/ip_repo/myip_temp_v3_1.0' instead.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'Z:/../Vivado3/ip_repo/myip_temp_v2_1.0'; using path 'Z:/Projects/ASIC2/Vivado3/ip_repo/myip_temp_v2_1.0' instead.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'Z:/../Vivado3/ip_repo/myip_temp_1.0'; using path 'Z:/Projects/ASIC2/Vivado3/ip_repo/myip_temp_1.0' instead.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'Z:/../Vivado3/ip_repo/TCD_v1_1.0'; using path 'Z:/Projects/ASIC2/Vivado3/ip_repo/TCD_v1_1.0' instead.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'Z:/../LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip'; using path 'Z:/Projects/ASIC2/LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'z:/Projects/ASIC2/Vivado3/ip_repo/TDC_v2_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'z:/Projects/ASIC2/Vivado3/ip_repo/myip_temp_v3_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'z:/Projects/ASIC2/Vivado3/ip_repo/myip_temp_v2_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'z:/Projects/ASIC2/Vivado3/ip_repo/myip_temp_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'z:/Projects/ASIC2/Vivado3/ip_repo/TCD_v1_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'z:/Projects/ASIC2/LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-135] resetting runs for excluding generated files from archive...
+WARNING: [Coretcl 2-105] Run 'synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'

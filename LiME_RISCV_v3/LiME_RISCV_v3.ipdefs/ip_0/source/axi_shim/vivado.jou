@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Aug  2 20:41:17 2021
+# Process ID: 16436
+# Current directory: Z:/Projects/ASIC2/LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip/source/axi_shim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15712 Z:\Projects\ASIC2\LIME\Sources\PerMA-emulator_st-2969fa5dab7e\ip\source\axi_shim\axi_shim.xpr
+# Log file: Z:/Projects/ASIC2/LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip/source/axi_shim/vivado.log
+# Journal file: Z:/Projects/ASIC2/LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip/source/axi_shim\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only Z:/Projects/ASIC2/LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip/source/axi_shim/axi_shim.xpr
+update_compile_order -fileset sources_1

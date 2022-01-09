@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Dec 18 17:40:37 2021
+# Process ID: 13340
+# Current directory: C:/Users/maxim.meltsin/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9108
+# Log file: C:/Users/maxim.meltsin/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/maxim.meltsin/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project Z:/LiME_RISCV_v3/LiME_RISCV_v3.xpr
+update_compile_order -fileset sources_1
+archive_project Z:/LiME_RISCV_v3.xpr.zip -temp_dir Z:/temp -force -exclude_run_results

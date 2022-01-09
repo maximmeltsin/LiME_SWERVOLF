@@ -1,0 +1,462 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sun Oct 31 20:22:33 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_TDC_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_TDC_v2_0_0 (ac.il:user:TDC_v2:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sun Oct 31 17:41:11 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_TDC_v2_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of base_zynq_design_TDC_v2_0_0 (ac.il:user:TDC_v2:1.0) from (Rev. 15) to (Rev. 16)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'base_zynq_design_TDC_v2_0_0'. These changes may impact your design.
+
+
+-upgrade has added port 'arready'
+-upgrade has added port 'arvalid'
+-upgrade has added port 'awready'
+-upgrade has added port 'awvalid'
+-upgrade has added port 'rdaddr'
+-upgrade has added port 'waddr'
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sat Oct 30 17:42:45 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_TDC_v2_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of base_zynq_design_TDC_v2_0_0 (ac.il:user:TDC_v2:1.0) from (Rev. 14) to (Rev. 15)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'base_zynq_design_TDC_v2_0_0'. These changes may impact your design.
+
+
+-upgrade has removed port 'arready'
+-upgrade has removed port 'arvalid'
+-upgrade has removed port 'awready'
+-upgrade has removed port 'awvalid'
+-upgrade has removed port 'rdaddr'
+-upgrade has removed port 'waddr'
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sat Oct 30 16:50:51 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_TDC_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_TDC_v2_0_0 (ac.il:user:TDC_v2:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sat Oct 30 15:35:15 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_TDC_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_TDC_v2_0_0 (ac.il:user:TDC_v2:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sat Oct 30 14:27:24 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_TDC_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_TDC_v2_0_0 (ac.il:user:TDC_v2:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sat Oct 30 13:16:20 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_TDC_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_TDC_v2_0_0 (ac.il:user:TDC_v2:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sat Oct 30 12:58:48 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_TDC_v2_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of base_zynq_design_TDC_v2_0_0 (ac.il:user:TDC_v2:1.0) from (Rev. 9) to (Rev. 10)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Warnings
+-----------
+
+WARNING: The upgraded user parameter set contained parameters that could not be mapped on to the upgraded IP. Note that parameter names and IDs are case sensitive.
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'base_zynq_design_TDC_v2_0_0'. These changes may impact your design.
+
+
+-upgrade has added port 'arready'
+-upgrade has added port 'arvalid'
+-upgrade has added port 'awready'
+-upgrade has added port 'awvalid'
+-upgrade has added port 'rdaddr'
+-upgrade has added port 'waddr'
+
+4. Customization warnings
+-------------------------
+
+WARNING: Parameter 'awvalid' is no longer present on the upgraded IP 'base_zynq_design_TDC_v2_0_0', and cannot be set to ''
+
+WARNING: Parameter 'awready' is no longer present on the upgraded IP 'base_zynq_design_TDC_v2_0_0', and cannot be set to ''
+
+WARNING: Parameter 'waddr' is no longer present on the upgraded IP 'base_zynq_design_TDC_v2_0_0', and cannot be set to '0'
+
+WARNING: Parameter 'arvalid' is no longer present on the upgraded IP 'base_zynq_design_TDC_v2_0_0', and cannot be set to ''
+
+WARNING: Parameter 'arready' is no longer present on the upgraded IP 'base_zynq_design_TDC_v2_0_0', and cannot be set to ''
+
+WARNING: Parameter 'rdaddr' is no longer present on the upgraded IP 'base_zynq_design_TDC_v2_0_0', and cannot be set to '0'
+
+
+5. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  Please consult the warnings from the previous sections, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv ac.il:user:TDC_v2:1.0 -user_name base_zynq_design_TDC_v2_0_0
+set_property -dict "\
+  CONFIG.C_M00_AXI_START_DATA_VALUE 0x00000000AA000000 \
+  CONFIG.C_M00_AXI_TARGET_SLAVE_BASE_ADDR 0x70000000 \
+  CONFIG.C_M00_AXI_ADDR_WIDTH 32 \
+  CONFIG.C_M00_AXI_DATA_WIDTH 64 \
+  CONFIG.C_M00_AXI_TRANSACTIONS_NUM 1 \
+  CONFIG.C_S00_AXI_DATA_WIDTH 32 \
+  CONFIG.C_S00_AXI_ADDR_WIDTH 4 \
+  CONFIG.C_S00_AXI_BASEADDR 0xFFFFFFFF \
+  CONFIG.C_S00_AXI_HIGHADDR 0x00000000 \
+  CONFIG.Component_Name base_zynq_design_TDC_v2_0_0 " [get_ips base_zynq_design_TDC_v2_0_0]
+
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sat Oct 30 12:56:40 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_TDC_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_TDC_v2_0_0 (ac.il:user:TDC_v2:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sat Oct 30 12:47:26 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_TDC_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_TDC_v2_0_0 (ac.il:user:TDC_v2:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sat Oct 30 12:36:06 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_TDC_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_TDC_v2_0_0 (ac.il:user:TDC_v2:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Fri Oct 29 21:14:22 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_TDC_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_TDC_v2_0_0 (ac.il:user:TDC_v2:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Fri Oct 29 20:35:25 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_TDC_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_TDC_v2_0_0 (ac.il:user:TDC_v2:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Fri Oct 29 19:21:09 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_TDC_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_TDC_v2_0_0 (ac.il:user:TDC_v2:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Fri Oct 29 18:22:12 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_TDC_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_TDC_v2_0_0 (ac.il:user:TDC_v2:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Fri Oct 29 18:02:43 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_TDC_v2_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of base_zynq_design_TDC_v2_0_0 (ac.il:user:TDC_v2:1.0) from (Rev. 1) to (Rev. 2)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'base_zynq_design_TDC_v2_0_0'. These changes may impact your design.
+
+
+-upgraded port 'm00_axi_rdata' width 64 differs from original width 32
+-upgraded port 'm00_axi_wdata' width 64 differs from original width 32
+-upgraded port 'm00_axi_wstrb' width 8 differs from original width 4
+
+3. Customization warnings
+-------------------------
+
+WARNING: An attempt to modify the value of disabled parameter 'C_M00_AXI_DATA_WIDTH' from '64' to '32' has been ignored for IP '/TDC_v2_0'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  Please consult the warnings from the previous sections, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv ac.il:user:TDC_v2:1.0 -user_name base_zynq_design_TDC_v2_0_0
+set_property -dict "\
+  CONFIG.C_M00_AXI_START_DATA_VALUE 0xAA000000 \
+  CONFIG.C_M00_AXI_TARGET_SLAVE_BASE_ADDR 0x70000000 \
+  CONFIG.C_M00_AXI_ADDR_WIDTH 32 \
+  CONFIG.C_M00_AXI_DATA_WIDTH 32 \
+  CONFIG.C_M00_AXI_TRANSACTIONS_NUM 1 \
+  CONFIG.C_S00_AXI_DATA_WIDTH 32 \
+  CONFIG.C_S00_AXI_ADDR_WIDTH 4 \
+  CONFIG.C_S00_AXI_BASEADDR 0xFFFFFFFF \
+  CONFIG.C_S00_AXI_HIGHADDR 0x00000000 \
+  CONFIG.Component_Name base_zynq_design_TDC_v2_0_0 " [get_ips base_zynq_design_TDC_v2_0_0]
+
+

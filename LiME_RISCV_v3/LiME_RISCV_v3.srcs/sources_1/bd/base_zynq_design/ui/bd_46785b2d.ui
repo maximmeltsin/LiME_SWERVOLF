@@ -1,0 +1,76 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "commentid":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 400 -defaultsOSRD
+preplace port ddr3_sdram -pg 1 -y 70 -defaultsOSRD
+preplace port SMA_CLK_N -pg 1 -y 980 -defaultsOSRD
+preplace port SMA_CLK_P -pg 1 -y 960 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 460 -defaultsOSRD
+preplace port led_4bits -pg 1 -y 510 -defaultsOSRD
+preplace port reset -pg 1 -y 310 -defaultsOSRD
+preplace port sys_diff_clock -pg 1 -y 70 -defaultsOSRD
+preplace inst axi_delay_0 -pg 1 -lvl 4 -y 2140 -defaultsOSRD
+preplace inst rst_processing_system7_0_100M -pg 1 -lvl 1 -y 2160 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 7 -y 80 -defaultsOSRD
+preplace inst TDC_v2_0 -pg 1 -lvl 6 -y 2130 -defaultsOSRD
+preplace inst rst_processing_system7_0_VARCLK -pg 1 -lvl 1 -y 1950 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 7 -y 510 -defaultsOSRD
+preplace inst axi_shim_0 -pg 1 -lvl 3 -y 2500 -defaultsOSRD
+preplace inst rst_processing_system7_0_50M -pg 1 -lvl 1 -y 1740 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 8 -y 620 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 7 -y 1080 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -y 2350 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 7 -y 670 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 3 -y 1550 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 950 -defaultsOSRD
+preplace inst axi_perf_mon_0 -pg 1 -lvl 5 -y 890 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 1 8 670 400 NJ 400 NJ 400 NJ 400 NJ 400 NJ 400 NJ 400 NJ
+preplace netloc mig_7series_0_mmcm_locked 1 0 8 160 1840 NJ 1840 NJ 1840 NJ 1840 NJ 1840 NJ 1840 NJ 1840 3320
+preplace netloc axi_delay_0_rdid 1 4 2 2020 2140 NJ
+preplace netloc axi_delay_0_rdaddr 1 4 2 2000 2100 NJ
+preplace netloc axi_delay_0_arready 1 4 2 1990 2080 NJ
+preplace netloc clk_wiz_0_locked 1 0 5 180 1850 700 1250 N 1250 1520 1260 1910
+preplace netloc processing_system7_0_axi_periph_M03_AXI 1 3 1 1500
+preplace netloc processing_system7_0_axi_periph_M00_AXI 1 3 4 1470J 710 NJ 710 NJ 710 2660
+preplace netloc mig_7series_0_DDR3 1 7 2 3320 70 NJ
+preplace netloc axi_delay_0_wlength 1 4 2 2030 2160 NJ
+preplace netloc rst_processing_system7_0_50M_interconnect_aresetn 1 0 4 130 1640 670 1650 790 2130 N
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 2 N 930 770
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 7 1 3340
+preplace netloc processing_system7_0_axi_periph_M05_AXI 1 3 3 NJ 1590 NJ 1590 2320
+preplace netloc processing_system7_0_M_AXI_GP1 1 1 4 680 1230 760J 1230 NJ 1230 1900
+preplace netloc axi_delay_0_arvalid 1 4 2 1980 2060 NJ
+preplace netloc axi_delay_0_waddr 1 4 2 1970 2040 NJ
+preplace netloc axi_delay_0_awready 1 4 2 1960 2020 NJ
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 170 1610 670
+preplace netloc sys_diff_clock_1 1 0 7 NJ 70 NJ 70 NJ 70 NJ 70 NJ 70 NJ 70 N
+preplace netloc rst_processing_system7_0_50M_peripheral_aresetn 1 1 6 690 1720 750J 1240 1530J 1250 1880 730 NJ 730 2670
+preplace netloc axi_delay_0_m_axi 1 0 7 180 1280 NJ 1280 NJ 1280 1500J 1300 1940 1280 N 1280 2670
+preplace netloc processing_system7_0_axi_periph_M02_AXI 1 0 4 120 790 NJ 790 N 790 1460
+preplace netloc rst_processing_system7_0_100M_peripheral_aresetn 1 1 6 680 1640 740J 390 NJ 390 NJ 390 NJ 390 2660
+preplace netloc mig_7series_0_ui_clk 1 0 8 150 1630 N 1630 820J 1820 NJ 1820 NJ 1820 NJ 1820 NJ 1820 3330
+preplace netloc processing_system7_0_axi_periph_M06_AXI 1 3 2 1510J 1220 1870
+preplace netloc axi_delay_0_rdlength 1 4 2 2040 2180 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 1 8 680 430 NJ 430 NJ 430 NJ 430 NJ 430 NJ 430 NJ 430 3620J
+preplace netloc clk_wiz_0_clk_out1 1 0 9 140 2060 670 2060 800 1850 1550 1290 1920 1300 2330 1300 2660J 980 NJ 980 3620J
+preplace netloc axi_gpio_0_GPIO 1 7 2 NJ 510 N
+preplace netloc TDC_v2_0_M00_AXI 1 2 5 820J 1270 NJ 1270 NJ 1270 NJ 1270 2690
+preplace netloc axi_delay_0_awvalid 1 4 2 1950 2000 NJ
+preplace netloc rst_processing_system7_0_50M1_peripheral_aresetn 1 1 6 N 1990 810 1830 1560 1310 1970 1310 2310 1310 2700
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 9 110 780 690 1260 780 1260 1540 1240 1890 740 NJ 740 2700 970 NJ 970 3630
+preplace netloc axi_delay_0_wid 1 4 2 2010 2120 NJ
+preplace netloc reset_1 1 0 7 100 90 NJ 90 NJ 90 NJ 90 NJ 90 NJ 90 N
+preplace netloc axi_shim_0_m_axi 1 3 4 1530 1280 1930 1290 N 1290 2680
+preplace netloc processing_system7_0_axi_periph_M04_AXI 1 3 4 1480J 60 NJ 60 NJ 60 2660
+preplace netloc processing_system7_0_axi_periph_M01_AXI 1 3 4 1490J 720 NJ 720 NJ 720 2690
+levelinfo -pg 1 80 430 720 1306 1740 2183 2500 3177 3486 3650 -top -100 -bot 2980
+"
+}
+{
+   "da_axi4_cnt":"23",
+   "da_board_cnt":"2",
+   "da_clkrst_cnt":"4",
+   "da_ps7_cnt":"3"
+}

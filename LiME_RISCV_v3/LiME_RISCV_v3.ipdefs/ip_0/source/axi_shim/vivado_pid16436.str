@@ -1,0 +1,142 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 16436
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Aug 02 20:41:49 IDT 2021
+Time zone: 	Israel Standard Time (Asia/Jerusalem)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	D:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	D:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	maxim.meltsin
+User home directory: C:/Users/maxim.meltsin
+User working directory: Z:/Projects/ASIC2/LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip/source/axi_shim
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2020.2
+RDI_DATADIR: D:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: D:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/maxim.meltsin/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/maxim.meltsin/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/maxim.meltsin/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	Z:/Projects/ASIC2/LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip/source/axi_shim/vivado.log
+Vivado journal file location: 	Z:/Projects/ASIC2/LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip/source/axi_shim/vivado.jou
+Engine tmp dir: 	Z:/Projects/ASIC2/LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip/source/axi_shim/.Xil/Vivado-16436-CL-MDS31404
+
+Xilinx Environment Variables
+----------------------------
+NO_XILINX_DATA_LICENSE: HIDDEN
+XILINX: D:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@CL-SRV-01;2100@132.68.61.161
+XILINX_DSP: D:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: D:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2020.2
+XILINX_SDK: D:/Xilinx/Vitis/2020.2
+XILINX_VITIS: D:/Xilinx/Vitis/2020.2
+XILINX_VIVADO: D:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	140 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,078 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 81 MB (+82171kb) [00:00:11]
+// [Engine Memory]: 1,078 MB (+979175kb) [00:00:11]
+// aK (cr): Older Project Version: addNotify
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+selectRadioButton(PAResourceTtoZ.UpgradeProjectDialog_OPEN_PROJECT_IN_READ_ONLY_MODE, "Open project in read-only mode"); // a
+// HMemoryUtils.trashcanNow. Engine heap size: 1,078 MB. GUI used memory: 66 MB. Current time: 8/2/21, 8:41:50 PM IDT
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Opening Vivado Project: Z:\Projects\ASIC2\LIME\Sources\PerMA-emulator_st-2969fa5dab7e\ip\source\axi_shim\axi_shim.xpr. Version: Vivado v2014.1 
+// bz (cr):  Open Project : addNotify
+dismissDialog("Older Project Version"); // aK
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project -read_only Z:/Projects/ASIC2/LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip/source/axi_shim/axi_shim.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project -read_only Z:/Projects/ASIC2/LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip/source/axi_shim/axi_shim.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/lloyd23/work/axi_shim' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 125 MB (+42501kb) [00:00:31]
+// WARNING: HEventQueue.dispatchEvent() is taking  3747 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1112.414 ; gain = 0.000 
+// Project name: axi_shim; location: Z:/Projects/ASIC2/LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip/source/axi_shim; part: xc7z045ffg900-2
+// Elapsed time: 18 seconds
+dismissDialog("Open Project"); // bz
+// z (cr): Project is Read-Only: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Project is Read-Only"); // z
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (axi_shim.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axi_shim(behavioral) (axi_shim.vhd)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axi_shim(behavioral) (axi_shim.vhd)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axi_shim(behavioral) (axi_shim.vhd)]", 1, false, false, false, false, false, true); // D - Double Click
+// [GUI Memory]: 137 MB (+5493kb) [00:00:45]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 2); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 2); // D
+// Elapsed time: 136 seconds
+selectCodeEditor("axi_shim.vhd", 154, 295); // G
+selectCodeEditor("axi_shim.vhd", 155, 295, false, false, false, false, true); // G - Double Click
+selectCodeEditor("axi_shim.vhd", 155, 295); // G
+// HMemoryUtils.trashcanNow. Engine heap size: 1,078 MB. GUI used memory: 75 MB. Current time: 8/2/21, 9:11:50 PM IDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,078 MB. GUI used memory: 67 MB. Current time: 8/2/21, 9:41:51 PM IDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,078 MB. GUI used memory: 66 MB. Current time: 8/2/21, 10:11:51 PM IDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,078 MB. GUI used memory: 66 MB. Current time: 8/2/21, 10:41:52 PM IDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,078 MB. GUI used memory: 66 MB. Current time: 8/2/21, 11:11:52 PM IDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,078 MB. GUI used memory: 66 MB. Current time: 8/2/21, 11:41:53 PM IDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,078 MB. GUI used memory: 66 MB. Current time: 8/3/21, 12:11:53 AM IDT

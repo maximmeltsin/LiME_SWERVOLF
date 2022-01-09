@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Aug  2 20:41:17 2021
+# Process ID: 16436
+# Current directory: Z:/Projects/ASIC2/LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip/source/axi_shim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15712 Z:\Projects\ASIC2\LIME\Sources\PerMA-emulator_st-2969fa5dab7e\ip\source\axi_shim\axi_shim.xpr
+# Log file: Z:/Projects/ASIC2/LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip/source/axi_shim/vivado.log
+# Journal file: Z:/Projects/ASIC2/LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip/source/axi_shim\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only Z:/Projects/ASIC2/LIME/Sources/PerMA-emulator_st-2969fa5dab7e/ip/source/axi_shim/axi_shim.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/lloyd23/work/axi_shim' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-229] Project 'axi_shim.xpr' is read-only and therefore could not be upgraded for this version of Vivado.  Use 'File | Save Project As...' if you wish to save an upgraded copy.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1112.414 ; gain = 0.000
+update_compile_order -fileset sources_1

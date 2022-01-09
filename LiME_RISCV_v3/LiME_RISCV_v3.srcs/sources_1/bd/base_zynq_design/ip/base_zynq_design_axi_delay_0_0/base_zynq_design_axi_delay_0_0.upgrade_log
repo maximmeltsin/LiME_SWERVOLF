@@ -1,0 +1,399 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sun Oct 31 19:31:21 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_axi_delay_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_axi_delay_0_0 (llnl.gov:user:axi_delay:1.2) from (Rev. 20) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sun Oct 31 19:04:49 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_axi_delay_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_axi_delay_0_0 (llnl.gov:user:axi_delay:1.2) from (Rev. 19) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sun Oct 31 18:31:45 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_axi_delay_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_axi_delay_0_0 (llnl.gov:user:axi_delay:1.2) from (Rev. 18) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sun Oct 31 18:11:55 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_axi_delay_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of base_zynq_design_axi_delay_0_0 (llnl.gov:user:axi_delay:1.2) from (Rev. 17) to (Rev. 18)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'base_zynq_design_axi_delay_0_0'. These changes may impact your design.
+
+
+-upgrade has removed port 'araddr'
+-upgrade has added port 'rdaddr'
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sun Oct 31 17:55:03 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_axi_delay_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_axi_delay_0_0 (llnl.gov:user:axi_delay:1.2) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sun Oct 31 17:36:14 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_axi_delay_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of base_zynq_design_axi_delay_0_0 (llnl.gov:user:axi_delay:1.2) from (Rev. 15) to (Rev. 16)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'base_zynq_design_axi_delay_0_0'. These changes may impact your design.
+
+
+-upgrade has added port 'araddr'
+-upgrade has added port 'arready'
+-upgrade has added port 'arvalid'
+-upgrade has added port 'awready'
+-upgrade has added port 'awvalid'
+-upgrade has added port 'waddr'
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sun Oct 31 17:05:14 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_axi_delay_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_axi_delay_0_0 (llnl.gov:user:axi_delay:1.2) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sun Oct 31 16:50:42 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_axi_delay_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_axi_delay_0_0 (llnl.gov:user:axi_delay:1.2) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sun Oct 31 16:37:30 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_axi_delay_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_axi_delay_0_0 (llnl.gov:user:axi_delay:1.2) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sun Oct 31 16:24:18 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_axi_delay_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_axi_delay_0_0 (llnl.gov:user:axi_delay:1.2) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sun Oct 31 16:11:19 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_axi_delay_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_axi_delay_0_0 (llnl.gov:user:axi_delay:1.2) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sat Oct 30 22:19:55 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_axi_delay_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_axi_delay_0_0 (llnl.gov:user:axi_delay:1.2) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sat Oct 30 20:04:35 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_axi_delay_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_axi_delay_0_0 (llnl.gov:user:axi_delay:1.2) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Sat Oct 30 19:30:41 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_axi_delay_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_axi_delay_0_0 (llnl.gov:user:axi_delay:1.2) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Thu Sep 30 13:41:45 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_axi_delay_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_axi_delay_0_0 (llnl.gov:user:axi_delay:1.2) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Thu Sep 30 13:27:08 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_axi_delay_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_axi_delay_0_0 (llnl.gov:user:axi_delay:1.2) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Thu Sep 30 13:22:25 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_axi_delay_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_axi_delay_0_0 (llnl.gov:user:axi_delay:1.2) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Thu Sep 30 13:21:13 2021
+| Host         : CL-MDS31404 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_zynq_design_axi_delay_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_zynq_design_axi_delay_0_0 (llnl.gov:user:axi_delay:1.2) from (Rev. 3) to (Rev. 4)
+

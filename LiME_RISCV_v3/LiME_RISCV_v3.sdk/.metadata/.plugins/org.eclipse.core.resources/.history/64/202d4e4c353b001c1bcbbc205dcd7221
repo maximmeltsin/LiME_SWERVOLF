@@ -1,0 +1,103 @@
+/*
+ * randa.c
+ *
+ *  Created on: Sep 12, 2014
+ *      Author: lloyd23
+ */
+
+#include "hpcc.h"
+#include "RandomAccess.h"
+
+#include "config.h"
+#include "alloc.h"
+#include "cache.h"
+#include "monitor.h"
+#include "ticks.h"
+#include "clocks.h"
+
+#include "xil_types.h"
+//#include "ff.h"
+#include "xil_printf.h"
+#include <xstatus.h>
+#include "xil_cache.h"
+
+//static FATFS  fatfs;
+
+#include "platform.h"
+#include "platform_config.h"
+#include "lwip/init.h"
+#include "netif/xadapter.h"
+struct netif server_netif;
+
+
+// TODO: find a better place for these globals
+
+#if defined(STATS) || defined(TRACE) 
+XAxiPmon apm;
+#endif // STATS || TRACE
+
+
+int main()
+{
+	HPCC_Params params;
+
+	/*FIL fil;
+	FRESULT rc;
+	TCHAR *Path = "0:/";
+	rc = f_mount(0, &fatfs);
+	rc = f_open (&fil, "asd.txt", FA_CREATE_NEW | FA_WRITE);
+	rc = f_close(&fil);
+	rc = f_mount(0, &fatfs);*/
+
+
+	// Init UDP
+	unsigned char mac_ethernet_address[] = {0x00, 0x0a, 0x35, 0x00, 0x01, 0x02};
+	struct netif *netif;
+	netif = &server_netif;
+	init_platform();
+	lwip_init();
+	xemac_add(netif, NULL, NULL, NULL, mac_ethernet_address, PLATFORM_EMAC_BASEADDR);
+
+
+
+
+	*((int *)(XPAR_CLK_WIZ_0_BASEADDR + 0x200)) = 0x00000001 | (20 << 8);
+
+
+	while(1) {
+		int val;
+		val = getchar();
+		val = getchar();
+
+		for(int i = 0; i < 10; i++){
+			*((int *)(XPAR_CLK_WIZ_0_BASEADDR + 0x208)) = (0x0000000A + i) | (0 << 14) | (0x00000001 << 18);
+			*((int *)(XPAR_CLK_WIZ_0_BASEADDR +  0x25C)) = 0x7;
+			*((int *)(XPAR_CLK_WIZ_0_BASEADDR +  0x25C)) = 0x2;
+			while((*((int *)(XPAR_CLK_WIZ_0_BASEADDR + 0x04)) & 0x1) == 0){;}
+
+			MONITOR_INIT
+
+			params.outFname[0] = '\0'; /* use stdout */
+			params.HPLMaxProcMem = (size_t)1 << 22; /* half-gig */
+			params.RunSingleRandomAccess_LCG = 1;
+
+			/* -------------------------------------------------- */
+			/*                 SingleRandomAccess LCG             */
+			/* -------------------------------------------------- */
+
+			if (params.RunSingleRandomAccess_LCG) {
+				HPCC_RandomAccess_LCG(&params, 1, &params.Single_LCG_GUPs, &params.Failure);
+			}
+
+			if (params.RunSingleDGEMM) {
+				//HPCC_TestDGEMM(&params, 1, &params.SingleDGEMMGflops, &params.DGEMM_N, &params.Failure);
+			}
+
+
+
+			TRACE_CAP
+		}
+	}
+
+	return 0;
+}
